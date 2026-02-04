@@ -171,19 +171,20 @@ These analytics support operational monitoring and data-driven decision-making.
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
+```text
 flight-crew-data-warehouse/
 ├── datasets/
-│   ├── source_ops/                  # Flight Operations (OPS)
+│   ├── source_ops/
 │   │   ├── flights.csv
 │   │   └── airports.csv
 │   │
-│   ├── source_irrops/               # Irregular Operations (IRROPS)
+│   ├── source_irrops/
 │   │   ├── delay_events.csv
 │   │   └── weather_windows.csv
 │   │
-│   └── source_cms/                  # Crew Management System (CMS)
+│   └── source_cms/
 │       ├── crew.csv
 │       ├── crew_assignments.csv
 │       └── aircraft.csv
@@ -195,18 +196,17 @@ flight-crew-data-warehouse/
 │   └── data_catalog.md
 │
 ├── scripts/
-│   ├── bronze/                      # Raw ingestion
-│   ├── silver/                      # Cleansing & standardization
-│   └── gold/                        # Analytics-ready models
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
 │
-├── tests/                           # Data quality checks
+├── tests/
 │
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
 
-
----
 
 ## 🛡️ License
 
