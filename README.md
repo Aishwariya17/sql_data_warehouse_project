@@ -176,39 +176,36 @@ These analytics support operational monitoring and data-driven decision-making.
 flight-crew-data-warehouse/
 │
 ├── datasets/
-│ ├── source_ops/ # Flight Operations (OPS)
-│ │ ├── flights.csv
-│ │ └── airports.csv
-│ │
-│ ├── source_irrops/ # Irregular Operations (IRROPS)
-│ │ ├── delay_events.csv
-│ │ └── weather_windows.csv
-│ │
-│ └── source_cms/ # Crew Management System (CMS)
-│ ├── crew.csv
-│ ├── crew_assignments.csv
-│ └── aircraft.csv
+│   ├── source_ops/              # Flight Operations (OPS)
+│   │   ├── flights.csv
+│   │   └── airports.csv
+│   │
+│   ├── source_irrops/           # Irregular Operations (IRROPS)
+│   │   ├── delay_events.csv
+│   │   └── weather_windows.csv
+│   │
+│   └── source_cms/              # Crew Management System (CMS)
+│       ├── crew.csv
+│       ├── crew_assignments.csv
+│       └── aircraft.csv
 │
 ├── docs/
-│ ├── data_architecture.png
-│ ├── etl.drawio
-│ ├── data_architecture.drawio
-│ ├── data_flow.drawio
-│ ├── data_models.drawio
-│ ├── data_catalog.md
-│ └── naming-conventions.md
+│   ├── data_architecture.png
+│   ├── data_flow.png
+│   ├── data_models.png
+│   └── data_catalog.md
 │
 ├── scripts/
-│ ├── bronze/ # Raw ingestion scripts
-│ ├── silver/ # Cleansing and transformations
-│ └── gold/ # Analytics-ready models
+│   ├── bronze/                  # Raw ingestion
+│   ├── silver/                  # Cleansing & standardization
+│   └── gold/                    # Analytics-ready models
 │
-├── tests/ # Data quality checks
+├── tests/                       # Data quality checks
 │
 ├── README.md
 ├── LICENSE
-├── .gitignore
-└── requirements.txt
+└── .gitignore
+
 
 ---
 
